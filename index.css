@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#navbar{
+    background-color: rgb(221, 137, 137);
+    
+}
+.menu{
+    display: inline-block;
+    margin: 20px;
+}
+.menu li{
+    display: inline-block;
+}
+.men{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    margin: 5px;
+}
+#wiki{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#middle{
+    margin: 20px;
+}
+
+.para{
+    margin: 5px;
+}
+
+#table1, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#table1{
+    width: 80%;
+    height: 125px;
+    margin-top: 0px;
+}
+
+#table2, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#table2{
+    width: 80%;
+    height: 10px;
+}
+
+#table3, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#table3{
+    width: 80%;
+    height: 10px;
+}
+
+#table1 thead tr:nth-child(1){
+    background-color: rgb(94, 129, 241);
+}
+
+#table1 tr:nth-child(1){
+    background-color: rgb(66, 221, 241);
+}
+
+#table2 thead tr:nth-child(2n){
+    background-color: #21e953;
+}
+#table2 thead tr:nth-child(2n+1){
+    background-color: #09f894;
+}
+#table3 thead tr:nth-child(1){
+    background-color: rgb(175, 25, 235);
+}
+
+#table3 tbody tr:nth-child(3n){
+    background-color: rgb(193, 81, 207);
+}
+#table3 tbody tr:nth-child(3n+1){
+    background-color:#880488;
+}
+#table3 tbody tr:nth-child(3n+2){
+    background-color: #b69edb;
+}
